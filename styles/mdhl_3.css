@@ -1,0 +1,234 @@
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+                /* ENCABEZADO */
+
+header{
+
+}
+header img {
+    width: 10vw;
+  
+}
+
+.opacity{ 
+    height: 50vh;
+    background-image: url("../assets/design1_image1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+header h1{
+    font-size: 50px;
+
+}
+
+                /* MENÚ */
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;    
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+header nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.438);
+}
+
+header nav a:hover{
+    color: yellow;
+}
+.activo {
+    color: white; 
+    font-size: 20px;
+    
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.288);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.subtitulo {
+    color: black;
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+main section{
+    width: 60vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 3vw;
+}
+
+main section h3{
+    margin-bottom: 1vh;
+}
+main section h2{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+/* PAGINA RULES */
+.rules section h2{
+   text-align: center;
+   margin-bottom: 4px;
+}
+
+.rules section ul{
+    list-style-type: circle;
+}
+
+.rules section .lower{
+    list-style-type:lower-latin;
+}
+
+.sangria{
+    text-indent: 3vw;
+}
+/* PAGINA GAME */
+
+table{
+    border-collapse: collapse;
+    width: 60%;        
+}
+thead{
+    background-color: yellow;
+}
+tbody{
+    background-color: rgba(255, 255, 0, 0.705);
+}
+
+.filaTabla{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;    
+    text-align: center;
+
+}
+
+th, td{
+    padding: 1vw;
+}
+.maps{
+    border-radius: 5px;
+}
+.maps:hover{
+    width: 20vw;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+/* Contenido Tabla */
+
+.seccionTabla div{
+    margin-bottom: 25px;
+
+}
+.seccionTabla div p{
+    margin: 15px 0;
+}
+
+iframe{
+    width: 5vw;
+    height: 5vh;
+}
+.contacto{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-weight: bold;
+}
+
+/* FORMULARIO */
+form{
+    width: 60vw;
+    padding: 2vw;
+    background-color:white;
+    border-radius: 20px;
+}
+
+form fieldset{
+    border: none;
+}
+
+/* persona */
+.datoPersona{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.datopersonaInterno div{
+    margin-bottom: 10px;    
+}
+
+
+/* escuela */
+.datosEscuela{
+    display: flex;
+}
+
+.datosEscuelaInterno{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.datosEscuelaInterno div{
+    width: 15vw;
+    margin-bottom: 10px;    
+}
+
+/* Boton */
+#boton{
+    padding: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    font-weight: bold;
+}
